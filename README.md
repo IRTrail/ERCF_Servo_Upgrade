@@ -23,10 +23,11 @@ Seriously just don't. Back driving is moving the servo arm by hand. It's not goo
 The ProModeler website is full of warnings about it. It can **VOID YOUR WARRANTY**. So just don't. It's not a great idea for any servo, if we're honest. So don't. Have I mentioned...don't back drive your servo?
 ## Great. What other stuff do I need to install it?
 Good question. You'll need the following:
-- A servo arm. This servo has 25T splines and neither of the other available servo arms work. So, I made one for you. Depending on your printer tolerances, it will be from a perfect fit to impossible to install. Tweak your extrusion modifier and print another if the fit isn't correct.
+1) A servo arm. This servo has 25T splines and neither of the other available servo arms work. So, I made one for you. Depending on your printer tolerances, it will be from a perfect fit to impossible to install. Tweak your extrusion modifier and print another if the fit isn't correct.
 -- Print the servo arm with very thin layers. I usually print mine with 0.12mm layers and shoot for 0.18mm first layer. This helps define the spline better and get a more perfect fit.
-- A servo extension. ProModeler has several lengths [clicky](https://www.promodeler.com/extensions) and guess what. They have a locking tab. How cool is that? Order one when you order your servo. Yes, you can craft your own, but why crimp another connection when you can let someone else?
-- Probably a new servo bracket for the springy mount...TBD.
-- The wire bracket for the selector cart. [The one from GNeu42 looks promising.](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/User_Mods/Gneu42/Selector_Drag_chain_Anchor_with_servo_connectors) I haven't tested this one yet, so I may release something in the future. But, Gneu42's work is spectacular.
+2) A servo extension. ProModeler has several lengths [here](https://www.promodeler.com/extensions) and guess what. They have a locking tab. How cool is that? Order one when you order your servo. Yes, you can craft your own, but why crimp another connection when you can let someone else?
+3) A servo bracket. This servo is slightly different from either the MG90S or the Savox SH-0225MG, and thus needs a new mount.
+4) A new idler block. The pocket for the servo has been deepened by 2.2mm to accommodate the extra badassitude of the ProModeler.
+5) The wire bracket for the selector cart. You really don't want to snip the wire on such a nice servo do you? I didn't either. Use a different selector bracket so your servo wire doesn't need snipped. [The one from GNeu42 looks promising.](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/User_Mods/Gneu42/Selector_Drag_chain_Anchor_with_servo_connectors) 
 
-## This is very much still in development. More to come soon.  
+## This is very much still in development. More to come soon.
