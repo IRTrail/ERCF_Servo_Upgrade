@@ -34,8 +34,10 @@ Good question. You'll need the following:
 ## So, how do I install it?
 Well, pretty much like you installed the other servo options. Although, you'll need to replace the idler block as well. Make sure you don't put the servo arm on before powering up the servo. You'll want to leave it off. Put the servo in the UP position, then install the arm with the leg as close to the servo housing as possible. It's ok to pre-install the servo arm on the servo to make it fit well before the initial power up. But, make sure it isn't installed so the servo doesn't stall out for a long time before it's set up in Happy Hare.
 Calibrate the servo as normal and set the springy bolt to suit. You don't want it so tight it stalls the servo. Just enough to engage the gears firmly.
+##### Here's a picture of it all nestled into place making the ERCF happy:
+![Installed.jpg](https://github.com/IRTrail/ERCF_Servo_Upgrade/blob/main/images/Installed.jpg?raw=true)  
+Yeah, it's really hard to get a nice picture of it installed.
 ## Ok. What else have you got for me?
 Well, since you asked...[there's a total bling version made from solid brass](https://www.promodeler.com/DS125CLHV-BM).
 
 ## This is very much still in development. More to come soon.
-
