@@ -27,6 +27,15 @@ Good question. You'll need the following:
 1) [A servo arm](STL/Servo%20Arm%20ProModeler.STL). This servo has 25T splines and neither of the other available servo arms work. So, I made one for you. Depending on your printer tolerances, it will be from a perfect fit to impossible to install. Tweak your extrusion modifier and print another if the fit isn't correct.
 -- Print the servo arm with very thin layers. I usually print mine with 0.12mm layers and shoot for 0.18mm first layer. This helps define the spline better and get a more perfect fit.
 2) A servo extension. ProModeler has several lengths [here](https://www.promodeler.com/extensions) and guess what. They have a locking tab. How cool is that? Order one when you order your servo. Yes, you can craft your own, but why crimp another connection when you can let someone else?
+-- A good approximation of the extension length needed is (315 + (number of gates * 23.05)) * 1mm and round to the nearest 10mm.  
+
+| Gates | Length (mm) | Length (in) |
+|-------|-------------|-------------|
+| 4     | 410         | 16.14       |
+| 6     | 450         | 17.72       |
+| 8     | 500         | 19.69       |
+| 12    | 590         | 23.23       |
+
 3) [A servo mount](STL/Servo%20Mount%20Promodeler.STL). This servo is slightly different from either the MG90S or the Savox SH-0225MG, and thus needs a new mount.
 4) [A new idler block](STL/Linear%20Axis%20Idler%20Block%20ProModeler.STL). The pocket for the servo has been deepened by 2.2mm to accommodate the extra badassitude of the ProModeler.
 5) The wire bracket for the selector cart. You really don't want to snip the wire on such a nice servo do you? I didn't either. Use a different selector bracket so your servo wire doesn't need snipped. [The one from GNeu42 looks promising.](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/User_Mods/Gneu42/Selector_Drag_chain_Anchor_with_servo_connectors) 
@@ -41,3 +50,4 @@ Yeah, it's really hard to get a nice picture of it installed.
 Well, since you asked...[there's a total bling version made from solid brass](https://www.promodeler.com/DS125CLHV-BM).
 
 ## This is very much still in development. More to come soon.
+
