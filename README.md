@@ -15,6 +15,7 @@
 - This servo has a CNC aluminum housing. How cool is that?  
 - This servo has a 25T spline, which is compatible with most servo arms, not that the ERCF uses standard servo arms, but standardization is good for the end user.  
 - It uses a...wait for it...M3 servo screw. No more hunting for a M2.5, M2, M-whatever that only fits your specific servo because you dropped the only one in existence into the ethereal plane which swallows important screws, 10MM sockets, and single socks for all eternity. Just grab another M3 button head from your stash and laugh at the infernal depths of screw stealing madness.  
+- It is **quiet**. Seriously, compared to a MG90s, this thing whispers instead of coughs like your old crazy uncle that smokes too much.
 - ProModeler servos are used by the military. [They're also used to aim high precision lasers.](https://www.promodeler.com/profiles/NPL-ProModeler-and-steering-lasers)  
 - ![](https://i.makeagif.com/media/8-09-2015/4F7n75.gif) 
 ## Important notes:
@@ -37,3 +38,4 @@ Calibrate the servo as normal and set the springy bolt to suit. You don't want i
 Well, since you asked...[there's a total bling version made from solid brass](https://www.promodeler.com/DS125CLHV-BM).
 
 ## This is very much still in development. More to come soon.
+
