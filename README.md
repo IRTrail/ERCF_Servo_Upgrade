@@ -28,6 +28,7 @@ Good question. You'll need the following:
 -- Print the servo arm with very thin layers. I usually print mine with 0.12mm layers and shoot for 0.18mm first layer. This helps define the spline better and get a more perfect fit.
 2) A servo extension. ProModeler has several lengths [here](https://www.promodeler.com/extensions) and guess what. They have a locking tab. How cool is that? Order one when you order your servo. Yes, you can craft your own, but why crimp another connection when you can let someone else?
 -- A good approximation of the extension length needed is (315 + (number of gates * 23.05)) * 1mm and round to the nearest 10mm.  
+(I currently have a 6 gate ERCF in V2 spec. The numbers below are for reference only and not tested)
 
 | Gates | Length (mm) | Length (in) |
 |-------|-------------|-------------|
