@@ -1,3 +1,4 @@
+
 # Promodeler ERCF Servo Upgrade
 #### Using the ProModeler DS105CLHV Servo  
 ##### Disclaimer: I am not an affiliate of ProModeler and I don't get any sort of compensation from ProModeler for this. I just like their stuff. It's some of the best on the market and far more reasonably priced than servos of competing quality.
@@ -25,7 +26,7 @@ The ProModeler website is full of warnings about it. It can **VOID YOUR WARRANTY
 ## Great. What other stuff do I need?
 Good question. You'll need the following:
 1) [A servo arm](STL/Servo%20Arm%20ProModeler.STL). This servo has 25T splines and neither of the other available servo arms work. So, I made one for you. Depending on your printer tolerances, it will be from a perfect fit to impossible to install. Tweak your extrusion modifier and print another if the fit isn't correct.
--- Print the servo arm with very thin layers. I usually print mine with 0.12mm layers and shoot for 0.18mm first layer. This helps define the spline better and get a more perfect fit.
+-- **Print the servo arm with very thin layers**. I usually print mine with 0.12mm layers and shoot for 0.18mm first layer. This helps define the spline better and get a more perfect fit.
 2) A servo extension. ProModeler has several lengths [here](https://www.promodeler.com/extensions) and guess what. They have a locking tab. How cool is that? Order one when you order your servo. Yes, you can craft your own, but why crimp another connection when you can let someone else?
 -- A good approximation of the extension length needed is (315 + (number of gates * 23.05)) * 1mm and round to the nearest 10mm.  
 (I currently have a 6 gate ERCF in V2 spec. The numbers below are for reference only and not tested)
@@ -37,18 +38,25 @@ Good question. You'll need the following:
 | 8     | 500         | 19.69       |
 | 12    | 590         | 23.23       |
 
-3) [A servo mount](STL/Servo%20Mount%20Promodeler.STL). This servo is slightly different from either the MG90S or the Savox SH-0225MG, and thus needs a new mount.
+3) [A servo mount](STL/Servo%20Mount%20Promodeler.STL). This servo has slightly different geometry from either the MG90S or the Savox SH-0225MG, and thus needs a new mount.
 4) [A new idler block](STL/Linear%20Axis%20Idler%20Block%20ProModeler.STL). The pocket for the servo has been deepened by 2.2mm to accommodate the extra badassitude of the ProModeler.
 5) The wire bracket for the selector cart. You really don't want to snip the wire on such a nice servo do you? I didn't either. Use a different selector bracket so your servo wire doesn't need snipped. [The one from GNeu42 looks promising.](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/User_Mods/Gneu42/Selector_Drag_chain_Anchor_with_servo_connectors) 
-6) A couple 2mm self tappers or 2mm socket head cap screws. The important thing here is they can't be longer than 5mm or they'll poke through and prevent the springyness of the Springy servo mount from springing. If you don't have something 5mm or shorter, file them down, or hit them with a dremel. Just don't do it with the servo in place and screw up the finish on it.
+6) A couple 2mm self tappers or 2mm socket head cap screws. The important thing here is they can't be longer than 5mm or they'll poke through and prevent the springiness of the Springy servo mount from springing. If you don't have something 5mm or shorter, file them down, or hit them with a Dremel. Just don't do it with the servo in place and screw up the finish on your new blingified servo.
 ## So, how do I install it?
-Well, pretty much like you installed the other servo options. Although, you'll need to replace the idler block as well. Make sure you don't put the servo arm on before powering up the servo. You'll want to leave it off. Put the servo in the UP position, then install the arm with the leg as close to the servo housing as possible. It's ok to pre-install the servo arm on the servo to make it fit well before the initial power up. But, make sure it isn't installed so the servo doesn't stall out for a long time before it's set up in Happy Hare.
-Calibrate the servo as normal and set the springy bolt to suit. You don't want it so tight it stalls the servo. Just enough to engage the gears firmly.
+Well, pretty much like you installed the other servo options. Although, you'll need to replace the idler block as well. Make sure you don't put the servo arm on before powering up the servo. You'll want to leave it off. FIrst, put the servo in the UP position. **Only after the servo is in the up position should you install the arm** with the leg as close to the servo housing as possible. But **make sure it isn't installed on initial power up** so the servo doesn't stall before it's set up in Happy Hare.
+
+Note: It's ok to pre-install the servo arm on the servo to make it fit well before the initial power up, just remember to remove it before power up.
+
+Calibrate the servo as normal and set the springy bolt to suit. You don't want it so tight it stalls the servo. Just enough to engage the gears firmly. For servo calibration routine, see [Page 127 in the ERCF V2 build manual](https://github.com/IRTrail/ERCF_v2/blob/master/Documentation/ERCF_v2_Manual.pdf)  and [Happy Hare servo calibration](https://github.com/moggieuk/Happy-Hare/blob/main/doc/calibration.md#step-2-calibrate-your-servo).
+
+For reference only, my numbers are 30 for the up position and 140 for the down position using Thumper Blocks. I haven't had the Triple Decky blocks with this servo, so I don't have an example for those.
+
 ##### Here's a picture of it all nestled into place making the ERCF happy:
 ![Installed.jpg](https://github.com/IRTrail/ERCF_Servo_Upgrade/blob/main/images/Installed.jpg?raw=true)  
 Yeah, it's really hard to get a nice picture of it installed.
 ## Ok. What else have you got for me?
 Well, since you asked...[there's a total bling version made from solid brass](https://www.promodeler.com/DS125CLHV-BM).
 
-## This is very much still in development. More to come soon.
+#### Hit me up on discord if you have any questions or suggestions @Silverback_Attack.
 
+![](https://c.tenor.com/TrLN3mH8oAkAAAAd/tenor.gif)
