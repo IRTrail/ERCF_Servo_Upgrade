@@ -45,11 +45,18 @@ Good question. You'll need the following:
 ## So, how do I install it?
 Well, pretty much like you installed the other servo options. Although, you'll need to replace the idler block as well. Make sure you don't put the servo arm on before powering up the servo. You'll want to leave it off. FIrst, put the servo in the UP position. **Only after the servo is in the up position should you install the arm** with the leg as close to the servo housing as possible. But **make sure it isn't installed on initial power up** so the servo doesn't stall before it's set up in Happy Hare.
 
-Note: It's ok to pre-install the servo arm on the servo to make it fit well before the initial power up, just remember to remove it before power up.
+Note: It's ok to pre-install the servo arm on the servo to make it fit well before the initial power up, just remember to remove it before power up.  
 
-Calibrate the servo as normal and set the springy bolt to suit. You don't want it so tight it stalls the servo. Just enough to engage the gears firmly. For servo calibration routine, see [Page 127 in the ERCF V2 build manual](https://github.com/IRTrail/ERCF_v2/blob/master/Documentation/ERCF_v2_Manual.pdf)  and [Happy Hare servo calibration](https://github.com/moggieuk/Happy-Hare/blob/main/doc/calibration.md#step-2-calibrate-your-servo).
+According to the specs, this servo has a 150° range based on 800-200 microsecond pulsewidth. So, you'll want to adjust those in `mmu_hardware.cfg`.
+![image](https://github.com/IRTrail/ERCF_Servo_Upgrade/assets/53546870/0aa39d75-b85b-4ac4-a3d6-adae336fc721)  
 
-For reference only, my numbers are 30 for the up position and 140 for the down position using Thumper Blocks. I haven't had the Triple Decky blocks with this servo, so I don't have an example for those.
+Calibrate the servo as normal and set the springy bolt to suit. You don't want it so tight it stalls the servo. Just enough to engage the gears firmly. For servo calibration routine, see [Page 127 in the ERCF V2 build manual](https://github.com/IRTrail/ERCF_v2/blob/master/Documentation/ERCF_v2_Manual.pdf)  and [Happy Hare servo calibration](https://github.com/moggieuk/Happy-Hare/blob/main/doc/calibration.md#step-2-calibrate-your-servo).  
+
+For reference only, my numbers are 30 for the up position and 90 for the down position using Thumper Blocks and the pulsewidths above.  
+![image](https://github.com/IRTrail/ERCF_Servo_Upgrade/assets/53546870/e148c905-e77a-435a-b3e0-d8381d9c84d0)  
+
+One person said their servo worked backward from the Savox, which makes sense when looking at the suggested values for the Savox vs. the MG90s. If yours seems reversed, just reverse the numbers in the config, then tune from there.
+I haven't had the Triple Decky blocks with this servo, so I don't have an example for those.
 
 ##### Here's a picture of it all nestled into place making the ERCF happy:
 ![Installed.jpg](https://github.com/IRTrail/ERCF_Servo_Upgrade/blob/main/images/Installed.jpg?raw=true)  
